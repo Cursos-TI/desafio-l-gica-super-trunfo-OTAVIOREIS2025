@@ -68,4 +68,40 @@ int main() {
 
     printf("\n=== Resultado da Comparacao ===\n");
 
+    // ============================
+    // Comparação baseada na escolha
+    // ============================
+    if (escolha == 1) {
+        if (carta1.populacao > carta2.populacao) {
+            printf("%s venceu em populacao (%d habitantes).\n", carta1.nome, carta1.populacao);
+        } else if (carta2.populacao > carta1.populacao) {
+            printf("%s venceu em populacao (%d habitantes).\n", carta2.nome, carta2.populacao);
+        } else {
+            printf("Empate em populacao!\n");
+        }
+    } else if (escolha == 2) {
+        if (carta1.area > carta2.area) {
+            printf("%s venceu em area (%.2f km²).\n", carta1.nome, carta1.area);
+        } else if (carta2.area > carta1.area) {
+            printf("%s venceu em area (%.2f km²).\n", carta2.nome, carta2.area);
+        } else {
+            printf("Empate em area!\n");
+        }
+    } else if (escolha == 3) {
+        if (carta1.pib > carta2.pib) {
+            printf("%s venceu em PIB (%.2f bilhoes).\n", carta1.nome, carta1.pib);
+        } else if (carta2.pib > carta1.pib) {
+            printf("%s venceu em PIB (%.2f bilhoes).\n", carta2.nome, carta2.pib);
+        } else {
+            printf("Empate em PIB!\n");
+        }
+    } else {
+        printf("Opcao invalida!\n");
+    }
+
+    printf("\n=== Fim do Desafio Super Trunfo ===\n");
+
+    return 0;
+}
+
 
