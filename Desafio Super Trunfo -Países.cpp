@@ -35,3 +35,24 @@ int main() {
     scanf("%f", &carta1.pib);
 
     printf("\n");
+
+     // ============================
+    // Cadastro da carta2
+    // ============================
+    printf("Digite o codigo da cidade 2: ");
+    scanf("%s", carta2.codigo);
+
+    printf("Digite o nome da cidade/pais 2: ");
+    scanf(" %[^\n]", carta2.nome);
+
+    printf("Digite a populacao da cidade 2: ");
+    scanf("%d", &carta2.populacao);
+
+    printf("Digite a area (km²) da cidade 2: ");
+    scanf("%f", &carta2.area);
+
+    printf("Digite o PIB (em bilhoes) da cidade 2: ");
+    scanf("%f", &carta2.pib);
+
+    printf("\n");
+
