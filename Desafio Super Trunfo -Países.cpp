@@ -56,3 +56,16 @@ int main() {
 
     printf("\n");
 
+    // ============================
+    // Escolha do atributo
+    // ============================
+    printf("=== Escolha o atributo para comparacao ===\n");
+    printf("1 - Populacao\n");
+    printf("2 - Area\n");
+    printf("3 - PIB\n");
+    printf("Digite sua escolha: ");
+    scanf("%d", &escolha);
+
+    printf("\n=== Resultado da Comparacao ===\n");
+
+
